@@ -1,0 +1,145 @@
+.fst-italic{
+    font-family: 'Qwigley', cursive;
+}
+
+html{
+    width: 100%;
+    position: relative;
+}
+body{
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    
+    
+}
+
+.container-fluid{
+    max-width: 1360px;
+    margin: 0 auto;
+}
+.del{
+    height: 35px;
+    font-size: 13px;
+    font-weight: bolder;
+    background-color: rgb(249, 180, 154);
+    color: red;
+    width:100px;
+}
+.pickup{
+    height: 35px;
+    font-size: 13px;
+    font-weight: bolder;
+    background-color: whitesmoke;
+    color: gray;
+    width:100px;
+}
+.inp{
+    
+    height: 35px;
+    border: 1px solid black;
+    width: 300px;
+    
+}
+.find{
+    height: 35px;
+    font-size: 13px;
+    font-weight: bolder;
+    background-color: orangered;
+    color: white;
+    width:100px;
+}
+.del30{
+    width:150px !important;
+}
+.discicon{
+    font-family: 'Source Sans 3', sans-serif;    
+    color: #F17228;
+    font-size: 20px;   
+    margin: 20px;
+    display: inline-block;
+    width: 90px;
+    
+}
+i{
+    color: #F17228;    
+}
+.sideline{   
+   border-right:2px solid gray;
+   margin: 5px;   
+    
+}
+.order{
+    background: #F17228;
+    border-color:#F17228;
+    border-radius: 3px;
+    font-weight: bold;
+}
+.popularimg{
+    height: 150px; 
+    border-radius: 5px;
+    
+}
+li{
+    
+    font-size: 13px;
+    font-weight: lighter; 
+    padding: 3px;
+}
+.subscribe{
+    background: #FFB800;
+    color:white;
+    border-radius: 4px;
+    border: 1px solid #FFB800;
+    font-weight: bold;
+    height:35px;
+    width:80px;
+    
+}
+.emailinp{
+    height:33px;
+    width:150px;
+
+}
+@media only screen and (max-width: 900px) {
+
+    footer .col-2,
+    footer .col-6{
+        width: 100%;
+    }
+    flex1{
+        flex-direction: column;
+    }
+    }
+
+  
+
+  @media only screen and (max-width: 600px) {
+
+    .best-deals img{
+        width: 100%;
+    }
+    .flex1{
+        flex-direction: column;
+    }
+    
+    .m-5{
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+
+    .sideline {
+    border-right:0;
+}
+
+  }
+
+
+h4.text-center.fw-bolder {
+    margin-bottom: 2rem;
+}
+
+.d-flex.flex-wrap.m-auto.row.justify-content-center.container-fluid
+ {
+    margin-bottom: 3rem !important;
+}

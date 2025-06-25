@@ -1,0 +1,285 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href="https://fonts.googleapis.com/css2?family=Qwigley&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@200&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+
+  <title>Restaurant Landing Page </title>
+</head>
+
+<body>
+  <div class="container-fluid gx-0">
+    <!-- Navbar section -->
+    <nav class="navbar bg-white border border-1 border-light-subtle px-5 d-flex flex-column flex-lg-row">
+      <span class="navbar-brand h1 fst-italic fs-1 text-warning fw-medium m-0">Hot meals</span>
+      <div class="text-center"><span class="navbar-brand fs-6 fw-bold">Deliver to :</span><span class="fw-semibold"><i
+            class="fa-solid fa-location-dot text-warning p-1"></i>current location</span><span class="fw-bold fs-6">
+          Ashok
+          Nagar, Chennai-600013</span></div>
+
+      <div> <span class="navbar-brand fw-bold fs-6"> <i class="fa-solid fa-magnifying-glass"></i> Search Food </span>
+        <button type="button" class="btn btn-outline-light text-warning fw-bold fs-6"><i
+            class="fa-regular fa-user text-warning"></i>Login</button></span>
+      </div>
+    </nav>
+    <!-- Search section -->
+    <div class="card bg-warning border rounded-0 justify-content-center p-5" style="max-width: 100%;">
+      <div class="row g-0">
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title fst-italic text-white fs-1 fw-medium">Look at your fav meals</h5>
+            <p class="card-text fs-6">Within a few clicks, find meals that are accessible near you</p>
+            <div class="bg-white w-75">
+              <button type="button" class="btn border m-3 del"><i class="fa-solid fa-truck"></i> Delivery</button>
+              <button type="button" class="btn border m-3 pickup"><i class="fa-solid fa-suitcase text-secondary"></i>
+                Pickup</button>
+              <p class="card-text mb-0">
+              <div class="input-group">
+                <input type="text" placeholder="Enter your address" class="inp m-3 rounded-2" value="">
+                <div class="input-group-append m-3 ">
+                  <button class="btn find" type="button">Find Food</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <img src="https://b.zmtcdn.com/data/dish_photos/c40/b111efa0740b9562a6e60336774c5c40.jpg?output-format=webp"
+            class="img-fluid mt-4" alt="veg meals">
+        </div>
+      </div>
+    </div>
+    <!-- display section -->
+    <div class="container">
+      <section class="d-flex m-5 flex1">
+        <div class="card m-2" style="width: 18rem;">
+          <img src="https://b.zmtcdn.com/data/dish_photos/028/5fac3fbafed35239e3d0a70841e38028.jpg"
+            class="card-img-top rounded-2 h-100 w-100" alt="...">
+          <div class="card-body">
+            <p class="card-text text-black fs-6">vada</p>
+            <button type="button" class="btn border del del30">30 min Delivery</button>
+          </div>
+        </div>
+
+        <div class="card m-2 flex1" style="width: 18rem;">
+          <img src="https://b.zmtcdn.com/data/dish_photos/140/ecc3f5ac1bdd253e294bb7ebf55f6140.jpg"
+            class="card-img-top rounded-2 h-100 w-100" alt="...">
+          <div class="card-body">
+            <p class="card-text text-black fs-6">Parotta</p>
+            <button type="button" class="btn border del del30">30 min Delivery</button>
+          </div>
+        </div>
+
+        <div class="card m-2 flex1" style="width: 18rem;">
+          <img src="https://b.zmtcdn.com/data/dish_photos/9d6/7017fcf6faf995776721adefbde679d6.jpg"
+            class="card-img-top rounded-2 h-100 w-100" alt="...">
+          <div class="card-body">
+            <p class="card-text text-black fs-6">Idly</p>
+            <button type="button" class="btn border del del30">30 min Delivery</button>
+          </div>
+        </div>
+
+        <div class="card m-2 flex1" style="width: 18rem;">
+          <img src="https://b.zmtcdn.com/data/dish_photos/5a4/e5df2c1732587455134b0c880e0bf5a4.jpg?"
+            class="card-img-top rounded-2 h-100 w-100" alt="...">
+          <div class="card-body">
+            <p class="card-text text-black fs-6">Pongal</p>
+            <button type="button" class="btn border del del30">30 min Delivery</button>
+          </div>
+        </div>
+      </section>
+      <!-- How does it work section -->
+      <section>
+        <h4 class="text-center fw-bolder " style="color: #F17228;">How does it work</h4>
+        <div class="d-grid w-75 mx-auto">
+          <div class="row text-center shadow rounded-1" style="outline: 5px solid #FFB5151A;;">
+            <div class="col sideline"><i class="fa-solid fa-tags fs-1"></i>
+              <div class="d-inline-block discicon">Daily Discount</div>
+            </div>
+            <div class="col sideline"><i class="fa-solid fa-location-dot  fs-1 "></i>
+              <div class="d-inline-block discicon">Live tracing</div>
+            </div>
+            <div class="col"><i class="fa-solid fa-clock-rotate-left  fs-1 "></i>
+              <div class="d-inline-block discicon">Quick Delivery</div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- Search by food -->
+    <section class=" bg-secondary-subtle w-auto my-5 py-5 P-2 P-lg-5">
+      <h4 class="m-1 p-3 mb-5 fw-bold text-center w-75 m-auto text-md-left">Search by food</h4>
+      <div class="d-grid w-75 m-auto">
+        <div class="row d-flex flex-column flex-lg-row text-center">
+          <div class="col-2 m-auto d-flex flex-column align-items-center text-center"><img
+              src="https://b.zmtcdn.com/data/dish_photos/ba7/9c591526c082d74e686eb14d75413ba7.jpg" alt="dosa"
+              style="width: 150px; height: 150px; border-radius: 144px;">Dosa</div>
+          <div class="col-2 m-auto d-flex flex-column align-items-center text-center"><img
+              src="https://b.zmtcdn.com/data/dish_photos/959/9d6b705f5b1dcb6c1e542bcb42630959.jpg" alt="appam"
+              style="width: 150px; height: 150px; border-radius: 144px;">Appam</div>
+          <div class="col-2  m-auto d-flex flex-column align-items-center text-center"><img
+              src="https://b.zmtcdn.com/data/dish_photos/829/24bfc38fc0c86700e5a5aaa7d09ac829.jpg" alt="Egg Rice"
+              style="width: 150px; height: 150px; border-radius: 144px;">Egg Rice</div>
+          <div class="col-2 m-auto d-flex flex-column align-items-center text-center"><img
+              src="https://b.zmtcdn.com/data/dish_photos/b8e/c52e4b569693924b1371e843b08cbb8e.jpg" alt="Idiyappam"
+              style="width: 150px; height: 150px; border-radius: 144px;">Briyani</div>
+          <div class="col-2  m-auto d-flex flex-column align-items-center text-center"><img
+              src="https://b.zmtcdn.com/data/dish_photos/fa7/947132f0c86586903e57c2c1a152afa7.jpg" alt="Briyani"
+              style="width: 150px; height: 150px; border-radius: 144px;">Idiyappam</div>
+          <div class="col-2 m-auto d-flex flex-column align-items-center text-center"><img
+              src="https://b.zmtcdn.com/data/pictures/1/20080321/1a221a582f4b7ac0d3b439ba272854d8_o2_featured_v2.jpg"
+              alt="Veg Rice" style="width: 150px; height: 150px; border-radius: 144px;">Chicken</div>
+
+        </div>
+
+      </div>
+
+    </section>
+    <!-- Best Deal -->
+    <section>
+      <div class="card mb-5 border-0">
+        <div class="row g-0">
+          <div class="col-md-5">
+
+            <div class="card-body text-center m-2 m-lg-5">
+              <div class="text-left w-75 m-auto">
+                <h3 class="card-title fw-bold">Best deals <span style="color: #F17228;">Crispy Diffen</span></h3>
+                <small class="card-text text-secondary fw-bold">Enjoy the large size Dosa. Complete perfect slice of
+                  Dosa.</small>
+                <p class="card-text"><button class="subscribe mt-2" style="width: 200px;">Proceed to order></button></p>
+              </div>
+
+            </div>
+          </div>
+          <div class="col-md-7 p-3 p-lg-0 best-deals m-auto">
+            <img width="70%";    src="https://b.zmtcdn.com/data/dish_photos/ba7/9c591526c082d74e686eb14d75413ba7.jpg"
+              class="m-auto d-flex rounded img-fluid" alt="meals">
+          </div>
+        </div>
+      </div>
+
+    </section>
+    <!-- Popular Items -->
+    <section class="mt-3">
+      <h4 class="text-center fw-bold">Popular items</h4>      
+        <div class="d-flex flex-wrap m-auto row justify-content-center container-fluid">
+          <div class="d-flex flex-column text-center w-auto card m-1 border border-0"><img width="210px"
+              src="https://b.zmtcdn.com/data/dish_photos/115/c8f49f2e89f6b1b2dbf163b4a1603115.png" alt="Mysore Pak"
+              class="popularimg">Mysore Pak<button class="text-white order">Order Now</button></div>
+          <div class="d-flex flex-column text-center w-auto card4 m-1 border border-0"><img width="210px"
+              src="https://b.zmtcdn.com/data/dish_photos/c95/dbd4fe6ab20b289ef93398bd85886c95.jpg" alt="jilebi"
+              class="popularimg">Jilebi<button class="text-white order">Order Now</button></div>
+          <div class="d-flex flex-column text-center w-auto card  m-1 border border-0"><img width="210px"
+              src="https://b.zmtcdn.com/data/dish_photos/bef/1bf7c9fc3ceba4e8d66dd3616fc6ebef.jpg" alt="Gulab jamun"
+              class="popularimg">Gulub jamun<button class="text-white order">Order Now</button></div>
+          <div class="d-flex flex-column text-center w-auto card  m-1 border border-0"><img width="210px"
+              src="https://b.zmtcdn.com/data/dish_photos/9e7/4e5b287726983159a72fcb50c12d59e7.jpg" alt="Lattu"
+              class="popularimg">Lattu<button class="text-white order">Order Now</button></div>
+          <div class="d-flex flex-column text-center w-auto card  m-1 border border-0"><img width="210px"
+              src="https://b.zmtcdn.com/data/dish_photos/0c4/64986d2d6a8ae3b4580c44b1da2b50c4.jpg" alt="Samosa"
+              class="popularimg">Samosa <button class="text-white order">Order Now</button></div>
+          <div class="d-flex flex-column text-center w-auto card  m-1 border border-0"><img width="210px"
+              src="https://b.zmtcdn.com/data/dish_photos/21e/dd98fc4a4ca60df25622ce9a0b08221e.jpg" alt="Murukku"
+              class="popularimg">Murukku<button class="text-white order">Order Now</button></div>
+          <div class="d-flex flex-column text-center w-auto card m-1 border border-0"><img width="210px"
+              src="https://b.zmtcdn.com/data/pictures/1/20502141/d360359ae7ab6786d36f9d09979c5780_o2_featured_v2.jpg" alt="Rasagula"
+              class="popularimg">Rasagula<button class="text-white order">Order Now</button></div>
+          <div class="d-flex flex-column text-center w-auto card m-1 border border-0"><img width="210px"
+              src="https://b.zmtcdn.com/data/pictures/1/20556631/2cf7422fca3dbd67060d13e201b4d1fe_o2_featured_v2.jpg" alt="cake"
+              class="popularimg">Cake<button class="text-white order">Order Now</button></div>
+          <div class="d-flex flex-column text-center w-auto card  m-1 border border-0"><img width="210px"
+              src="https://b.zmtcdn.com/data/pictures/5/3001935/b4a3ee4dd5a8c715420c2fe6b4b74bbe_o2_featured_v2.jpg" alt="Burfe"
+              class="popularimg">Burfe<button class="text-white order">Order Now</button></div>
+          <div class="d-flex flex-column text-center w-auto card  m-1 border border-0"><img width="210px"
+              src="https://b.zmtcdn.com/data/dish_photos/da8/b67625117f4e744921bf5975c7a8cda8.jpg" alt="Sevu"
+              class="popularimg">Sevu<button class="text-white order">Order Now</button></div>
+        </div>
+      </div>
+    </section>
+
+
+    <footer class="bg-black text-white d-grid">
+      <div class="row border-top p-1  m-auto foot1 container">
+        <div class="col-2">
+          <ul class="list-unstyled m-4 m-1">
+            <li class="fs-6"><strong>Company</strong></li>
+            <li>About us</li>
+            <li>Team</li>
+            <li>Careers</li>
+            <li>Blog</li>
+          </ul>
+        </div>
+        <div class="col-2">
+          <ul class="list-unstyled m-4 m-1">
+            <li class="fs-6"><strong>Contact</strong></li>
+            <li>Help & Support</li>
+            <li>Partner with us</li>
+            <li>Ride with us</li>
+          </ul>
+        </div>
+        <div class="col-2">
+          <ul class="list-unstyled m-4 m-1">
+            <li class="fs-6"> <strong>Legal</strong></li>
+            <li>Terms & Conditions</li>
+            <li>Refund & Cancellation</li>
+            <li>Privacy Policy</li>
+            <li>Cookie Policy</li>
+          </ul>
+        </div>
+        <div class="col-6 text-left">
+          <ul class="list-unstyled m-4 m-1">
+            <li><Strong class="text-secondary">Follow Us</strong></li>
+            <li><i class="fa-brands fa-instagram p-2 text-secondary"></i><i
+                class="fa-brands fa-facebook p-2 text-secondary"></i><i
+                class="fa-brands fa-twitter p-2 text-secondary"></i></li>
+            <li class="fw-bold text-secondary">Receive Exclusive offer in your mail box</li>
+            </section>
+            <li><input type="email" name="" id="" placeholder="  &#9993 Enter your email" class="emailinp"><button
+                class="subscribe mt-2 ml-2">Subscribe</button></li>
+
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    
+
+
+
+
+
+
+
+
+
+
+  </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
